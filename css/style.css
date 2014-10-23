@@ -190,9 +190,9 @@ a.social-btn:hover { color: #bd9213 }
 .hamburger {
 	display: block;
 	float: right;
-	background: url(../images/hamburger.png);
+	/*background: url(../images/hamburger.png);
 	background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
 	width:64px;
 	height:64px;
 }
