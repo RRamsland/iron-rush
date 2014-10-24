@@ -88,9 +88,11 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 .h50 { height: 50px }
 .h60 { height: 60px }
 
-.float-l { float: left }
-.float-r { float: right }
 
+@media(min-width:665px){
+	.float-l { float: left }
+	.float-r { float: right }
+}
 .image-wrapper {
 	display: inline-block;
 	border: 1px solid #ccc;
@@ -404,9 +406,21 @@ a.social-btn:hover { color: #bd9213 }
 .col-w600 { max-width: 600px }
 .col-w450 { max-width: 450px }
 .col-w300 { max-width: 300px }
-.col-w200 { max-width: 200px; margin-right: 50px; }
+.col-w200 {}
 .col-allw300 {  }
 .col-last { margin: 0 }
+@media(min-width:665px){
+	.col-w200{
+		margin-right: 50px;
+	}
+}
+@media(max-width:665px){
+	.col-w200{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+}
+
 @media(min-width:665px){
 	.col-allw300 { 
 		max-width: 300px; 
@@ -494,6 +508,7 @@ a.social-btn:hover { color: #bd9213 }
 .post-box a.more {
 
 }
+
 
 #map img {
 	width: 300px;
