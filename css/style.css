@@ -148,16 +148,28 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	max-width: 960px;
 	padding: 0 10px;
 	margin: 0 auto;
+	background: url(../images/tooplate-header.jpg) top center no-repeat;
 	
 }
 
 @media(max-width:660px){
 	#tooplate-wrapper {
-		background: url(../images/tooplate-header.jpg) top center no-repeat;
-		/*background: #201c1b;*/ /*SHREK*/
+		background: none;
+		padding:0;
 	}
 }
-
+.top-bar-mobile{
+	padding:0 10px;
+	max-width:100%;
+	height:auto;
+	overflow:hidden;
+	
+}
+@media(max-width:660px){
+	.top-bar-mobile{
+		background:#382f20;
+	}
+}
 #tooplate-top-bar {
 	max-width: 960px;
 	height: 40px;
@@ -189,16 +201,19 @@ a.social-btn:hover { color: #bd9213 }
 
 .hamburger {
 	float: right;
-	width:64px;
-	height:64px;
+	width:60px;
+	height:60px;
 	background-size: cover;
 	background-position: center center;
 }
-
+@media(min-width:660px){
+	.hamburger{
+		display:none;
+	}
+}
 
 #tooplate-header {
 	max-width: 960px;
-	padding: 10px 0;
 }
 @media(min-width:852px){
 
@@ -207,6 +222,7 @@ a.social-btn:hover { color: #bd9213 }
 	}
 	#tooplate-header {
 		height: 80px;
+		padding: 10px 0;
 	}
 }
 #site-title {
@@ -239,6 +255,11 @@ a.social-btn:hover { color: #bd9213 }
 @media(max-width:852px){
 	#tooplate-menu {
 		clear:left; /*TEST*/
+	}
+}
+@media(max-width:660px){
+	#tooplate-menu {
+		background:#211d1c;
 	}
 }
 #tooplate-menu ul {
@@ -287,7 +308,11 @@ a.social-btn:hover { color: #bd9213 }
 /* end of menu */
 
 /* end of menu */
-
+@media(max-width:660px){
+	.middle-container{
+		background-color:#211d1c;
+	}
+}
 #tooplate-middle {
 	clear: both;
 	max-width: 900px;
