@@ -154,7 +154,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 @media(max-width:660px){
 	#tooplate-wrapper {
 		background: url(../images/tooplate-header.jpg) top center no-repeat;
-		background: #201c1b;
+		/*background: #201c1b;*/ /*SHREK*/
 	}
 }
 
@@ -188,13 +188,11 @@ a.social-btn:hover { color: #bd9213 }
 
 
 .hamburger {
-	display: block;
 	float: right;
-	/*background: url(../images/hamburger.png);
-	background-repeat: no-repeat;
-    background-attachment: fixed;*/
 	width:64px;
 	height:64px;
+	background-size: cover;
+	background-position: center center;
 }
 
 
