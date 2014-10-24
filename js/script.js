@@ -5,8 +5,14 @@ $(document).ready(function(){
     });
 
     $(window).resize(function() {
-        if( $(window).width() > 645 ) {
+        if( $(window).width() > 645 ) {  //Note: the width is set to 645 to compensate for the width of the browser itself
         $('#tooplate-menu').show();
+    }
+    });
+
+    $(window).resize(function() {
+        if( $(window).width() < 645 ) {  //Note: the width is set to 645 to compensate for the width of the browser itself
+        $('#tooplate-menu').hide();
     }
     });
 });
