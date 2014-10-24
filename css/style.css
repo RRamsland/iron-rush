@@ -350,6 +350,7 @@ a.social-btn:hover { color: #bd9213 }
 @media(max-width:665px){
 	.middle-container{
 		background-color:#211d1c;
+		padding-top: 1.5px;
 	}
 }
 
