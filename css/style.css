@@ -162,12 +162,14 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	padding:0 10px;
 	max-width:100%;
 	height:auto;
-	overflow:hidden;
 	
 }
 @media(max-width:660px){
 	.top-bar-mobile{
+		overflow:hidden;
 		background:#382f20;
+		border-bottom:1px solid #4d4731;
+		box-shadow:20px;
 	}
 }
 #tooplate-top-bar {
@@ -232,6 +234,11 @@ a.social-btn:hover { color: #bd9213 }
 	margin: 0;
 	padding: 20px 0 0;
 }
+@media(max-width:660px){
+	#site-title h1{
+		padding: 12px 0 0 0;
+	}
+}
 
 #site-title h1 a {
 	display: block;
@@ -243,6 +250,11 @@ a.social-btn:hover { color: #bd9213 }
 }
 
 /* menu */
+@media (max-width: 868px){
+	#tooplate-menu {
+	clear:left;
+	}
+}
 @media(min-width:852px){
 	#tooplate-menu {
 		float: right;
@@ -294,7 +306,14 @@ a.social-btn:hover { color: #bd9213 }
 
 	}
 }
-
+@media(max-width:660px){
+	#tooplate-menu ul li a {
+		padding: 15px 0;
+		font-size: 16px;
+		height: auto; 
+		border: 1px solid black;
+	}
+}
 #tooplate-menu ul li a:hover, #tooplate-menu ul .current {
 	color: #fff;
 	
