@@ -35,7 +35,6 @@ a:hover {
 
 a.more {
 	display: inline-block;
-	float: right;
 	padding: 5px 24px 5px 0;
 	text-decoration: none;
 	font-weight: bold;
@@ -391,9 +390,39 @@ a.social-btn:hover { color: #bd9213 }
 .col-w450 { max-width: 450px }
 .col-w300 { max-width: 300px }
 .col-w200 { max-width: 200px; margin-right: 50px; }
-.col-allw300 { max-width: 300px; float: left; margin-right: 30px }
+.col-allw300 {  }
 .col-last { margin: 0 }
+@media(min-width:665px){
+	.col-allw300 { 
+		max-width: 300px; 
+		float: left; 
+		margin-right: 30px;
+	}
+	a.more{
+		float:right;
+	
+	}
+	.fp-lp-box {
+		margin:0;
+		margin-bottom: 10px;
+	}
+}
 
+@media(max-width:665px){
+	.col-allw300 { 
+		margin: 0 10px;
+		text-align: center; 
+	}
+	.tooplate-list{
+		margin:0;
+		list-style:none;
+	}
+	.tooplate-list li{
+		padding: 0;
+		background:none;
+	}
+
+}
 .fp-lp-box {
 	display: block;
 	clear: both;
@@ -402,7 +431,7 @@ a.social-btn:hover { color: #bd9213 }
 	height: 140px;
 	padding: 4px;
 	border: 1px solid #ccc;
-	margin-bottom: 10px;
+	margin: 0 auto;
 }
 
 .fp-lp-box  span {
@@ -448,7 +477,7 @@ a.social-btn:hover { color: #bd9213 }
 }
 
 .post-box a.more {
-	float: right;
+
 }
 
 #map img {
