@@ -286,6 +286,7 @@ a.social-btn:hover { color: #bd9213 }
 @media(max-width:665px){
 	#tooplate-menu {
 		background:#211d1c;
+		display:none;
 	}
 }
 
