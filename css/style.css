@@ -203,11 +203,11 @@ a.social-btn:hover { color: #bd9213 }
 
 .hamburger {
 	float: right;
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	background-size: cover;
 	background-position: center center;
-	padding: 5px 0;
+	/*padding: 5px 0;*/
 }
 @media(min-width:660px){
 	.hamburger{
@@ -235,21 +235,34 @@ a.social-btn:hover { color: #bd9213 }
 	margin: 0;
 	padding: 20px 0 0;
 }
+
 @media(max-width:660px){
 	#site-title h1{
-		padding: 12px 0 0 0;
+		padding: 6px 0;
+		
 	}
 }
 
 #site-title h1 a {
 	display: block;
-	width: 190px;
-	height: 40px;
 	color: #fff;
-	text-indent: -10000px;
-	background: url(../images/tooplate-logo.png) no-repeat top left;
+	/*text-indent: -10000px;*/
+	/*background: url(../images/tooplate-logo.png) no-repeat top left;*/
+	font-size: 40px;
+	padding: 9px 0;
+	font-family: MS Sans Serif;
+	text-decoration: none;
+	text-shadow:5px 5px 10px black;
 }
-
+@media(max-width:660px){
+	#site-title h1 a {
+		font-size: 30px;
+		padding: 2px 0;
+	}
+}
+#site-title h1 a span{
+	color:orange;
+}
 /* menu */
 @media (max-width: 868px){
 	#tooplate-menu {
